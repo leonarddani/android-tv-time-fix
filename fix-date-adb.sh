@@ -1,8 +1,9 @@
-#!/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 
 echo "🔧 Running the fix-date script via ADB..."
-echo "⏳ Waiting 150 seconds before starting..."
-sleep 150
+adb start-server
+echo "⏳ Waiting 20 seconds before starting..."
+sleep 20
 
 echo "📂 Opening Date & Time settings..."
 adb shell am start -a android.settings.DATE_SETTINGS
