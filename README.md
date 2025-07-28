@@ -3,7 +3,10 @@
 This repository contains two shell scripts to automate fixing date/time settings and launching YouTube TV on an Android device. Both scripts run on the device using Termux:Boot. One requires root access, while the other does not.
 
 ## Why I Made This
-I wrote these scripts for personal use to fix my Android device's date/time sync issues, which sometimes mess up apps like YouTube TV. The scripts turn off "Automatic date & time," enable network-provided time, and launch YouTube TV. I shared them to help others with similar problems on their Android devices.
+I built this script to help people who aren’t familiar with using the TV.
+The problem was that every time the electricity went out, the system date wouldn’t update properly — because the router powered on before the internet connection was ready.
+This caused apps like YouTube TV to stop working.
+So I made a script that automatically toggles the date settings off and on to force a time sync..
 
 ## What the Scripts Do
 - Wait 150 seconds for the device to boot.
