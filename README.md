@@ -9,7 +9,7 @@ This caused apps like YouTube TV to stop working.
 So I made a script that automatically toggles the date settings off and on to force a time sync..
 
 ## What the Scripts Do
-- Wait 150 seconds for the device to boot.
+- Wait 20 seconds for the internet to be Available.
 - Open Date & Time settings.
 - Toggle off "Automatic date & time" and enable network-provided time using key events.
 - Return to the home screen.
